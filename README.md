@@ -29,11 +29,9 @@ You can edit the [meldataset.py](meldataset.py) with your own melspectrogram pre
 
 The code for training new text aligner model is available [here](https://github.com/yl4579/AuxiliaryASR) and that for training new pitch extractor models is available [here](https://github.com/yl4579/PitchExtractor).
 
-     
-## Preprocessing Dataset
 The data list format needs to be `filename.wav|transcription|speaker`, see [val_list.txt](Data/val_list.txt) as an example. The speaker information is needed in order to perform speaker-dependent adversarial training. 
 
-To convert data into tra. Run
+To convert data into phonemes before training. Run
 ```bash
 python preprocess.py
 ```
