@@ -1,7 +1,7 @@
 # StyleTTS-VC for Japanese
 
 ### Overview
-
+StyleTTS-VC model is modified from [the repo](https://github.com/yl4579/StyleTTS-VC) for Japanese.
 
 ## Pre-requisites
 1. Python >= 3.7
@@ -18,6 +18,7 @@ pip install -r requirements.txt
 Dataset is downloaded from
    - [100 speakers](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus)
    - [1 speaker](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
+   
 and locate at `dataset` folder.
      
 ## Preprocessing
